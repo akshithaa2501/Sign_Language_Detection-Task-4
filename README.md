@@ -31,15 +31,15 @@ The model detects the following signs:
 •	Pillow
 
 # Project Structure
-•	Sign_Language_task
-•	dataset_split
-o	images
-o	labels
-•	best.py
-•	data.yaml
-•	train.py
-•	predict.py
-•	sign_language.py
+-	Sign_Language_task
+-	dataset_split
+   -	images
+   -  labels
+-	best.py
+-	data.yaml
+-	train.py
+-	predict.py
+-	sign_language.py
 
 # Dataset
 The model is trained using a 5-class Sign Language Detection Dataset.
