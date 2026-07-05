@@ -7,34 +7,34 @@ This project is a Sign Language Detection System developed using Python, YOLOv8,
 The application works only between 6:00 PM and 10:00 PM as per the project requirement.
 
 # Features
-•	Detects sign language from uploaded images.
-•	Supports multiple image upload.
-•	Detects sign language using a live webcam.
-•	Displays the detected sign with confidence score.
-•	User-friendly graphical interface using Streamlit.
-•	Application works only between 6 PM and 10 PM.
+-	Detects sign language from uploaded images.
+-	Supports multiple image upload.
+-	Detects sign language using a live webcam.
+-	Displays the detected sign with confidence score.
+-	User-friendly graphical interface using Streamlit.
+-	Application works only between 6 PM and 10 PM.
 
 # Supported Signs
 The model detects the following signs:
-•	Hello
-•	Yes
-•	No
-•	Thank You
-•	I Love You
+-	Hello
+-	Yes
+-	No
+-	Thank You
+-	I Love You
 
 # Technologies Used
-•	Python
-•	YOLOv8
-•	OpenCV
-•	Streamlit
-•	NumPy
-•	Pillow
+-	Python
+- YOLOv8
+-	OpenCV
+-	Streamlit
+-	NumPy
+-	Pillow
 
 # Project Structure
 -	Sign_Language_task
 -	dataset_split
-   -	images
-   -  labels
+     - images
+     - labels
 -	best.py
 -	data.yaml
 -	train.py
@@ -44,11 +44,11 @@ The model detects the following signs:
 # Dataset
 The model is trained using a 5-class Sign Language Detection Dataset.
 Classes:
-•	Hello
-•	Yes
-•	No
-•	Thank You
-•	I Love You
+- Hello
+- 	Yes
+- No
+-	Thank You
+-	I Love You
 
 # How the Project Works
 # Step 1
@@ -63,8 +63,8 @@ Run the Streamlit application.
 
 # Step 4
 Choose one of the following options:
-•	Upload Images
-•	Webcam
+- Upload Images
+-	Webcam
 
 # Step 5
 The model predicts the sign language gesture.
@@ -87,9 +87,9 @@ streamlit run sign_language.py
 
 # Output
 The application displays:
-•	Uploaded image or webcam frame
-•	Detected sign
-•	Confidence score
+-	Uploaded image or webcam frame
+-	Detected sign
+- Confidence score
 
 # Time Restriction
 The application is available only between:
