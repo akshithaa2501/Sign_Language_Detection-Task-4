@@ -1,0 +1,11 @@
+#Requirements
+ultralytics
+streamlit
+opencv-python
+numpy
+pillow
+torch
+torchvision
+PyYAML
+streamlit-webrtc
+av
